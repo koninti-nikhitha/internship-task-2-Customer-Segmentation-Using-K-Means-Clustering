@@ -1,0 +1,183 @@
+# Customer Segmentation Using K-Means Clustering
+
+## 📌 Project Overview
+
+Customer segmentation is a technique used by businesses to divide customers into groups based on similar characteristics and purchasing behavior. In this project, the K-Means Clustering algorithm is used to segment customers of a retail store based on their annual income and spending score. These segments help businesses understand customer behavior and create targeted marketing strategies.
+
+---
+
+## 🎯 Objective
+
+The main objective of this project is to:
+
+* Segment retail store customers into different groups.
+* Identify customers with similar purchasing behavior.
+* Help businesses improve marketing strategies.
+* Understand customer spending patterns using machine learning.
+
+---
+
+## 🛠 Technologies Used
+
+* Python
+* Jupyter Notebook
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+
+---
+
+## 📂 Dataset
+
+**Dataset Name:** Mall Customers Dataset
+
+The dataset contains information about 200 customers with the following attributes:
+
+* CustomerID
+* Gender
+* Age
+* Annual Income (k$)
+* Spending Score (1–100)
+
+---
+
+## 📋 Project Workflow
+
+### Step 1: Import Libraries
+
+Imported the required Python libraries for data analysis, visualization, and machine learning.
+
+### Step 2: Load the Dataset
+
+Loaded the dataset using the Pandas library.
+
+### Step 3: Explore the Dataset
+
+Performed:
+
+* Data inspection
+* Shape checking
+* Data types
+* Missing value analysis
+* Statistical summary
+
+### Step 4: Data Visualization
+
+Visualized:
+
+* Age distribution
+* Annual income distribution
+* Spending score distribution
+* Annual Income vs Spending Score scatter plot
+
+### Step 5: Feature Selection
+
+Selected the following features:
+
+* Annual Income (k$)
+* Spending Score (1–100)
+
+### Step 6: Data Scaling
+
+Applied **StandardScaler** to normalize the selected features before clustering.
+
+### Step 7: Elbow Method
+
+Used the Elbow Method to determine the optimal number of clusters.
+
+**Optimal Number of Clusters = 5**
+
+### Step 8: K-Means Clustering
+
+Trained the K-Means model and assigned each customer to one of the five clusters.
+
+### Step 9: Cluster Visualization
+
+Visualized customer segments using a scatter plot and displayed cluster centroids.
+
+### Step 10: Cluster Analysis
+
+Analyzed each cluster based on:
+
+* Age
+* Annual Income
+* Spending Score
+
+The customer groups were interpreted as:
+
+* VIP Customers
+* Regular Customers
+* Budget Customers
+* Careful Customers
+* High-Spending Customers
+
+---
+
+## 📊 Results
+
+The K-Means algorithm successfully segmented customers into five meaningful groups.
+
+The output includes:
+
+* Cluster assignment for each customer
+* Cluster visualization
+* Cluster summary table
+
+---
+
+## 📁 Output Files
+
+* clustered_customers.csv
+* Customer cluster visualization
+* Elbow Method graph
+
+---
+
+## 🚀 Future Enhancements
+
+* Use more customer features for segmentation.
+* Build an interactive dashboard using Streamlit.
+* Compare K-Means with Hierarchical Clustering and DBSCAN.
+* Deploy the project as a web application.
+
+---
+
+## 💡 Applications
+
+* Customer Segmentation
+* Personalized Marketing
+* Customer Relationship Management (CRM)
+* Business Intelligence
+* Retail Analytics
+
+---
+
+## 📚 Learning Outcomes
+
+Through this project, I learned:
+
+* Data preprocessing
+* Data visualization
+* Feature scaling
+* Unsupervised Machine Learning
+* K-Means Clustering
+* Elbow Method
+* Customer segmentation
+* Cluster analysis
+
+---
+
+## 👩‍💻 Author
+
+**Name:** KONINTI NIKHITHA
+
+**College:** SRIDEVI WOMEN'S ENGINEERING COLLEGE
+
+**Branch:** Computer Science and Engineering
+
+---
+
+## ⭐ Conclusion
+
+This project demonstrates how K-Means Clustering can be used to group retail customers based on purchasing behavior. Customer segmentation helps businesses understand their customers better, optimize marketing strategies, and improve customer satisfaction.
